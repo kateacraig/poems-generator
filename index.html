@@ -4,11 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/index.css" />
-    <title>AI Poem Generator</title>
+    <title>AI Nature Poem Generator</title>
   </head>
   <body>
-    <h1>Welcome to the AI Poem Generator.</h1>
-    <script src="src/index.js"></script>
+    <header>
+      <h1>AI Nature Poem Generator.</h1>
+    </header>
+
+    <main>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter the topic of the poem"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" />
+      </form>
+      <div>
+        I had no thought of violets of late,
+        <br />
+        The wild, shy kind that spring beneath your feet
+      </div>
+    </main>
+
     <footer>
       This AI project was coded by
       <a href="https://github.com/kateacraig" target="-blank"> Kate Craig</a>
@@ -21,5 +41,6 @@
         hosted on Netlify</a
       >.
     </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
