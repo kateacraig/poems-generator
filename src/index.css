@@ -68,6 +68,25 @@ a {
   border-radius: 5px;
 }
 
+.poem strong {
+  color: #295273;
+}
+
+.spanish-poem {
+  background-color: white;
+  color: #295273;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 20px;
+  border-left: 3px solid #295273;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 5px;
+}
+
+.spanish-poem strong {
+  color: #295273;
+}
+
 footer {
   color: #295273;
   text-align: center;
