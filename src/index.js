@@ -24,10 +24,6 @@ function poemGenerator(event) {
       ⏳ Generating a nature poem about a ${poemInput.value}.
     </div>`;
 
-  console.log("Generating poem");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
-
   axios(apiUrl).then(displayPoem);
 }
 
